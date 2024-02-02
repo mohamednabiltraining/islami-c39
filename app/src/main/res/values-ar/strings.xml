@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">IslamiC39</string>
     <string name="radio">Radio</string>
@@ -9,10 +10,9 @@
     <string name="_0">0</string>
     <string name="number_of_tasbeh">عدد التسبيحات</string>
     <array name="azkarList">
-        <item> سبحان الله </item>
-        <item> الحمدلله </item>
-        <item> لا اله الا الله </item>
-        <item> الله اكبر </item>
+        <item>سبحان الله</item>
+        <item>الحمدلله</item>
+        <item>لا اله الا الله</item>
+        <item>الله اكبر</item>
     </array>
-
 </resources>
