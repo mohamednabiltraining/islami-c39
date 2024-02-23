@@ -3,18 +3,18 @@
 
     <item
         android:id="@+id/navigation_quran"
-        android:icon="@drawable/ic_quran"
+        android:icon="@drawable/ic_quran_nav"
         android:title="@string/quran" />
     <item
         android:id="@+id/navigation_hadeth"
-        android:icon="@drawable/ic_hadeth"
+        android:icon="@drawable/ic_hadeth_nav"
         android:title="@string/hadeth" />
     <item
         android:id="@+id/navigation_tasbeh"
-        android:icon="@drawable/ic_sebha"
+        android:icon="@drawable/ic_sebha_nav"
         android:title="@string/tasbeh" />
     <item
         android:id="@+id/navigation_radio"
-        android:icon="@drawable/ic_radio"
+        android:icon="@drawable/ic_radio_nav"
         android:title="@string/radio" />
 </menu>
