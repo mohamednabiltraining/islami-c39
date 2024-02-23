@@ -7,7 +7,7 @@ import com.route.islamic39.databinding.ItemHadethTitleBinding
 import com.route.islamic39.model.Hadeth
 
 class HadethRecyclerAdapter(private val hadethList: List<Hadeth>) :
-    RecyclerView.Adapter<HadethRecyclerAdapter.ViewHolder>() { // ktlint-disable max-line-length
+    RecyclerView.Adapter<HadethRecyclerAdapter.ViewHolder>() {
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val hadeth = hadethList[position]

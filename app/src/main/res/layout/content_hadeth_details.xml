@@ -20,18 +20,44 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintWidth_percent=".8">
 
-        <ScrollView
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="match_parent"
+            android:gravity="center|top"
+            android:orientation="vertical"
+            android:padding="8dp">
 
             <TextView
-                android:id="@+id/content"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:id="@+id/hadith_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
                 android:gravity="center"
-                android:textSize="21sp"
-                tools:text="@tools:sample/lorem/random" />
-        </ScrollView>
+                android:textColor="@color/textColor"
+                android:textSize="24sp"
+                tools:text="the first hadith" />
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_margin="8dp"
+                android:background="@color/viewColor" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/el_messiri_semi_bold"
+                    android:textColor="@color/textColor"
+                    android:textSize="20sp"
+                    tools:text="@tools:sample/lorem/random" />
+            </ScrollView>
+        </LinearLayout>
     </androidx.cardview.widget.CardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

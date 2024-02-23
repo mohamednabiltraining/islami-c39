@@ -22,7 +22,7 @@ class HadethDetailsActivity : AppCompatActivity() {
         setSupportActionBar(viewBinding.toolBar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setDisplayShowHomeEnabled(true)
-        viewBinding.titleTv.text = hadeth?.title
+        viewBinding.content.hadithTitle.text = hadeth?.title
         viewBinding.content.content.text = hadeth?.content
     }
 
